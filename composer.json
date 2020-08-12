@@ -2,7 +2,7 @@
     "name": "noardcode/speech-to-text",
     "description": "This Laravel package provides a convenient interface for the Google Speech to Text API.",
     "type": "library",
-    "license": "Propriarity",
+    "license": "MIT",
     "require": {
         "illuminate/support": "^5.8|^6.0|^7.0",
         "php": "^7.2",
