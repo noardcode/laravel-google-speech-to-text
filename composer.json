@@ -1,0 +1,40 @@
+{
+    "name": "noardcode/speech-to-text",
+    "description": "This Laravel package provides a convenient interface for the Google Speech to Text API.",
+    "type": "library",
+    "license": "Propriarity",
+    "require": {
+        "illuminate/support": "^5.8|^6.0|^7.0",
+        "php": "^7.2",
+        "google/cloud-speech": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "orchestra/testbench": "^3.8",
+        "laravel/homestead": "^4.0@dev"
+    },
+    "authors": [
+        {
+            "name": "Roy Voetman",
+            "email": "roy@noardcode.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Noardcode\\SpeechToText\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Noardcode\\SpeechToText\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Noardcode\\SpeechToText\\SpeechToTextServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
