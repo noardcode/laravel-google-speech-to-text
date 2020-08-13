@@ -67,7 +67,7 @@ You can change the default settings by publishing the config file and changing t
     'sampleRateHertz' => 44100
 ]
 ```
-Or change the settings when an you have an instance of the class.
+Or change the settings when you have an instance of the class.
 ```php
 $speechToText = resolve(SpeechToText::class)
     ->setLanguageCode('en-US')
