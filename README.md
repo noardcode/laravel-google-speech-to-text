@@ -35,7 +35,7 @@ composer require noardcode/speech-to-text
 */
 'service-account' => '/path/to/service-account.json',
 ``` 
-> For a detailed documentation service accounts see: [https://cloud.google.com/docs/authentication/production](https://cloud.google.com/docs/authentication/production)
+> For a detailed documentation about service accounts see: [https://cloud.google.com/docs/authentication/production](https://cloud.google.com/docs/authentication/production)
  
  ### Basic examples
  ```php
